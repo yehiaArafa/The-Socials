@@ -1,0 +1,84 @@
+
+body {
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+
+*:focus{
+outline: none;
+}
+.cont{
+    box-shadow: 0px 1px 5px 0px;
+    background: rgba(255,255,255,0.85);
+    border-radius: 5px;
+    padding: 10px;
+}
+.home_h1{
+  color:#3a3a3a;
+  font-size: 28px; 
+}
+
+.inputs{
+  border-radius:3px;
+ }
+.inputs:focus{
+      background: #fff; 
+      border:2px solid #555; 
+      box-shadow: 0 0 3px #68b12f;
+}
+#sub,#subb{
+    background-color:#00a65a;
+    border-color: #00a65a;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    margin-top:8px;
+    margin-bottom: 5px;  
+}
+.spans{
+  color: red;
+  font-size: 18px;
+}
+.wrongInputs{
+   border-radius:3px;
+   border-color: red;
+   color:black; 
+}
+.wrongInputs:focus{
+      background: #fff; 
+      border:2px solid #555; 
+      box-shadow: 0 0 3px #68b12f;
+}
+.labels{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.labels-1{
+    font-size: 14px;
+    color:#3a3a3a;
+}
+
+.emoji {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    margin-bottom: -0.25em;
+}
+
+.showHide{
+display:none;
+}
+
+.caption{
+   color:#3a3a3a;
+   font-size: 18px;
+}
+
+.userName{
+   color:#3a3a3a;
+   font-size: 20px;
+   font-style: bold; 
+}
